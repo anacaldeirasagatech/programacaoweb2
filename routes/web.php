@@ -19,3 +19,5 @@ Route::get('/', function () {
     return 'Minha primeira rota';
 });
 
+Route::get('/contato', 'ContatoController@lista');
+
